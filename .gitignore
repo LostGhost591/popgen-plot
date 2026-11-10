@@ -1,0 +1,16 @@
+# ---- R 运行时产物 ----
+Rplots.pdf
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+.Rproj.user/
+
+# ---- 临时文件 ----
+tools/_*
+*.log
+
+# ---- 本地输出（demo_out 保留，README 要引用示例图）----
+# out/
+# *.eigenvec
+# *.eigenval

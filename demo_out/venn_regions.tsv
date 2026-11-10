@@ -1,0 +1,321 @@
+region	element
+List1	gene001
+List1	gene002
+List1	gene003
+List1	gene004
+List1	gene005
+List1	gene006
+List1	gene007
+List1	gene008
+List1	gene009
+List1	gene010
+List1	gene011
+List1	gene012
+List1	gene013
+List1	gene014
+List1	gene015
+List1	gene016
+List1	gene017
+List1	gene018
+List1	gene019
+List1	gene020
+List1	gene021
+List1	gene022
+List1	gene023
+List1	gene024
+List1	gene025
+List1	gene026
+List1	gene027
+List1	gene028
+List1	gene029
+List1	gene030
+List1	gene031
+List1	gene032
+List1	gene033
+List1	gene034
+List1	gene035
+List1	gene036
+List1	gene037
+List1	gene038
+List1	gene039
+List1	gene040
+List1	gene041
+List1	gene042
+List1	gene043
+List1	gene044
+List1	gene045
+List1	gene046
+List1	gene047
+List1	gene048
+List1	gene049
+List1	gene050
+List1	gene051
+List1	gene052
+List1	gene053
+List1	gene054
+List1	gene055
+List1	gene056
+List1	gene057
+List1	gene058
+List1	gene059
+List1	gene060
+List1	gene061
+List1	gene062
+List1	gene063
+List1	gene064
+List1	gene065
+List1	gene066
+List1	gene067
+List1	gene068
+List1	gene069
+List1	gene070
+List1	gene071
+List1	gene072
+List1	gene073
+List1	gene074
+List1	gene075
+List1	gene076
+List1	gene077
+List1	gene078
+List1	gene079
+List1	gene080
+List1	gene081
+List1	gene082
+List1	gene083
+List1	gene084
+List1	gene085
+List1	gene086
+List1	gene087
+List1	gene088
+List1	gene089
+List1	gene090
+List1	gene091
+List1	gene092
+List1	gene093
+List1	gene094
+List1	gene095
+List1	gene096
+List1	gene097
+List1	gene098
+List1	gene099
+List1 & List2	gene100
+List1 & List2	gene101
+List1 & List2	gene102
+List1 & List2	gene103
+List1 & List2	gene104
+List1 & List2	gene105
+List1 & List2	gene106
+List1 & List2	gene107
+List1 & List2	gene108
+List1 & List2	gene109
+List1 & List2	gene110
+List1 & List2	gene111
+List1 & List2	gene112
+List1 & List2	gene113
+List1 & List2	gene114
+List1 & List2	gene115
+List1 & List2	gene116
+List1 & List2	gene117
+List1 & List2	gene118
+List1 & List2	gene119
+List1 & List2 & List3	gene120
+List1 & List2 & List3	gene121
+List1 & List2 & List3	gene122
+List1 & List2 & List3	gene123
+List1 & List2 & List3	gene124
+List1 & List2 & List3	gene125
+List1 & List2 & List3	gene126
+List1 & List2 & List3	gene127
+List1 & List2 & List3	gene128
+List1 & List2 & List3	gene129
+List4	gene281
+List4	gene282
+List4	gene283
+List4	gene284
+List4	gene285
+List4	gene286
+List4	gene287
+List4	gene288
+List4	gene289
+List4	gene290
+List4	gene291
+List4	gene292
+List4	gene293
+List4	gene294
+List4	gene295
+List4	gene296
+List4	gene297
+List4	gene298
+List4	gene299
+List4	gene300
+List4	gene301
+List4	gene302
+List4	gene303
+List4	gene304
+List4	gene305
+List4	gene306
+List4	gene307
+List4	gene308
+List4	gene309
+List4	gene310
+List4	gene311
+List4	gene312
+List4	gene313
+List4	gene314
+List4	gene315
+List4	gene316
+List4	gene317
+List4	gene318
+List4	gene319
+List4	gene320
+List3 & List4	gene251
+List3 & List4	gene252
+List3 & List4	gene253
+List3 & List4	gene254
+List3 & List4	gene255
+List3 & List4	gene256
+List3 & List4	gene257
+List3 & List4	gene258
+List3 & List4	gene259
+List3 & List4	gene260
+List3 & List4	gene261
+List3 & List4	gene262
+List3 & List4	gene263
+List3 & List4	gene264
+List3 & List4	gene265
+List3 & List4	gene266
+List3 & List4	gene267
+List3 & List4	gene268
+List3 & List4	gene269
+List3 & List4	gene270
+List3 & List4	gene271
+List3 & List4	gene272
+List3 & List4	gene273
+List3 & List4	gene274
+List3 & List4	gene275
+List3 & List4	gene276
+List3 & List4	gene277
+List3 & List4	gene278
+List3 & List4	gene279
+List3 & List4	gene280
+List2 & List3 & List4	gene151
+List2 & List3 & List4	gene152
+List2 & List3 & List4	gene153
+List2 & List3 & List4	gene154
+List2 & List3 & List4	gene155
+List2 & List3 & List4	gene156
+List2 & List3 & List4	gene157
+List2 & List3 & List4	gene158
+List2 & List3 & List4	gene159
+List2 & List3 & List4	gene160
+List2 & List3 & List4	gene161
+List2 & List3 & List4	gene162
+List2 & List3 & List4	gene163
+List2 & List3 & List4	gene164
+List2 & List3 & List4	gene165
+List2 & List3 & List4	gene166
+List2 & List3 & List4	gene167
+List2 & List3 & List4	gene168
+List2 & List3 & List4	gene169
+List2 & List3 & List4	gene170
+List2 & List3 & List4	gene171
+List2 & List3 & List4	gene172
+List2 & List3 & List4	gene173
+List2 & List3 & List4	gene174
+List2 & List3 & List4	gene175
+List2 & List3 & List4	gene176
+List2 & List3 & List4	gene177
+List2 & List3 & List4	gene178
+List2 & List3 & List4	gene179
+List2 & List3 & List4	gene180
+List2 & List3 & List4	gene181
+List2 & List3 & List4	gene182
+List2 & List3 & List4	gene183
+List2 & List3 & List4	gene184
+List2 & List3 & List4	gene185
+List2 & List3 & List4	gene186
+List2 & List3 & List4	gene187
+List2 & List3 & List4	gene188
+List2 & List3 & List4	gene189
+List2 & List3 & List4	gene190
+List2 & List3 & List4	gene191
+List2 & List3 & List4	gene192
+List2 & List3 & List4	gene193
+List2 & List3 & List4	gene194
+List2 & List3 & List4	gene195
+List2 & List3 & List4	gene196
+List2 & List3 & List4	gene197
+List2 & List3 & List4	gene198
+List2 & List3 & List4	gene199
+List2 & List3 & List4	gene200
+List2 & List3 & List4	gene201
+List2 & List3 & List4	gene202
+List2 & List3 & List4	gene203
+List2 & List3 & List4	gene204
+List2 & List3 & List4	gene205
+List2 & List3 & List4	gene206
+List2 & List3 & List4	gene207
+List2 & List3 & List4	gene208
+List2 & List3 & List4	gene209
+List2 & List3 & List4	gene210
+List2 & List3 & List4	gene211
+List2 & List3 & List4	gene212
+List2 & List3 & List4	gene213
+List2 & List3 & List4	gene214
+List2 & List3 & List4	gene215
+List2 & List3 & List4	gene216
+List2 & List3 & List4	gene217
+List2 & List3 & List4	gene218
+List2 & List3 & List4	gene219
+List2 & List3 & List4	gene220
+List2 & List3 & List4	gene221
+List2 & List3 & List4	gene222
+List2 & List3 & List4	gene223
+List2 & List3 & List4	gene224
+List2 & List3 & List4	gene225
+List2 & List3 & List4	gene226
+List2 & List3 & List4	gene227
+List2 & List3 & List4	gene228
+List2 & List3 & List4	gene229
+List2 & List3 & List4	gene230
+List2 & List3 & List4	gene231
+List2 & List3 & List4	gene232
+List2 & List3 & List4	gene233
+List2 & List3 & List4	gene234
+List2 & List3 & List4	gene235
+List2 & List3 & List4	gene236
+List2 & List3 & List4	gene237
+List2 & List3 & List4	gene238
+List2 & List3 & List4	gene239
+List2 & List3 & List4	gene240
+List2 & List3 & List4	gene241
+List2 & List3 & List4	gene242
+List2 & List3 & List4	gene243
+List2 & List3 & List4	gene244
+List2 & List3 & List4	gene245
+List2 & List3 & List4	gene246
+List2 & List3 & List4	gene247
+List2 & List3 & List4	gene248
+List2 & List3 & List4	gene249
+List2 & List3 & List4	gene250
+List1 & List2 & List3 & List4	gene130
+List1 & List2 & List3 & List4	gene131
+List1 & List2 & List3 & List4	gene132
+List1 & List2 & List3 & List4	gene133
+List1 & List2 & List3 & List4	gene134
+List1 & List2 & List3 & List4	gene135
+List1 & List2 & List3 & List4	gene136
+List1 & List2 & List3 & List4	gene137
+List1 & List2 & List3 & List4	gene138
+List1 & List2 & List3 & List4	gene139
+List1 & List2 & List3 & List4	gene140
+List1 & List2 & List3 & List4	gene141
+List1 & List2 & List3 & List4	gene142
+List1 & List2 & List3 & List4	gene143
+List1 & List2 & List3 & List4	gene144
+List1 & List2 & List3 & List4	gene145
+List1 & List2 & List3 & List4	gene146
+List1 & List2 & List3 & List4	gene147
+List1 & List2 & List3 & List4	gene148
+List1 & List2 & List3 & List4	gene149
+List1 & List2 & List3 & List4	gene150
