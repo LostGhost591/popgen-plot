@@ -13,6 +13,8 @@
 ####      out.type 不设时会把调用方的绘图设备一起关掉
 ####   3. family = "GB1" 改成参数 font_family，默认不指定 —— "GB1"
 ####      是 Windows 专有中文字体名，换机器/换系统会直接报错
+####   4. col = rainbow(K) 改成参数 colors，默认走统一色板。
+####      要完全复刻原始出图，传 colors = function(k) rainbow(k)
 #### ============================================================
 
 Admixture_Plot <- function(sname,                    # 含 breed + sampleID 的 csv
@@ -26,6 +28,7 @@ Admixture_Plot <- function(sname,                    # 含 breed + sampleID 的 
                            liner     = 3,
                            adj       = -0.25,
                            mfrow     = 6,            # 与原脚本一致；传 NULL 则自动 = K 的个数
+                           colors    = NULL,         # NULL = 统一色板；函数/向量可复刻 rainbow(K)
                            font_family = "",         # PDF 中文字体；Windows 可试 "GB1"
                            breed_col  = "breed",
                            sample_col = "sampleID",
@@ -91,8 +94,17 @@ Admixture_Plot <- function(sname,                    # 含 breed + sampleID 的 
     }
     q <- utils::read.table(file = qfile, as.is = TRUE)
 
+    ## 配色：NULL = 统一色板；传函数按 K 生成（rainbow 复刻）；传向量按序循环
+    col_k <- if (is.null(colors)) {
+      popgen_colors_ramp(k)
+    } else if (is.function(colors)) {
+      colors(k)
+    } else {
+      rep(colors, length.out = k)
+    }
+
     graphics::barplot(t(as.matrix(q)),
-                      col        = popgen_colors_ramp(k),
+                      col        = col_k,
                       border     = FALSE,
                       space      = 0,
                       names.arg  = sn[[sample_col]],

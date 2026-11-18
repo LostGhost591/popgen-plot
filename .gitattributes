@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Shell 脚本统一 LF：否则在 Linux 服务器上会报 $'\r': command not found
+*.sh text eol=lf

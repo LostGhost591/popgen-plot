@@ -132,6 +132,31 @@ Admixture_Plot(
 )
 ```
 
+配色默认走统一色板（`popgen_colors_ramp()`）。**要跟旧脚本出的图一致**，配色和旧参数都得显式传：
+
+```r
+## 等价于旧脚本的 admixture(...)
+Admixture_Plot(
+  sname       = "group.csv",
+  file_prefix = "admixtureaixiao.clean.",
+  out         = "admixtureAIXIAO",
+  height = 15, width = 22,                  # 旧图尺寸
+  cexlab = 2, liner = 5,                    # 旧字号与分隔线位置
+  adj = -0.25, mfrow = 4,                   # 旧图例位置与每页面板数
+  out_type    = "pdf",                      # 注意：旧脚本里叫 out.type
+  colors      = function(k) rainbow(k),     # 旧配色
+  font_family = "GB1"                       # 旧脚本写死的 Windows 中文字体
+)
+```
+
+`colors` 三种写法：
+
+| 传什么 | 效果 |
+|---|---|
+| 不传 / `NULL` | 统一色板，全仓库配色一致（默认） |
+| `function(k) rainbow(k)` | 复刻旧图的 `rainbow()` |
+| `c("#E31A1C", "#1F78B4", ...)` | 固定色板，按 K 循环取色 |
+
 ### 5. Fst 曼哈顿图
 
 ![Fst](demo_out/Rect_Manhtn.FST.png)
